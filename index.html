@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080808">
+  <meta name="description" content="CFE — Configuration Of Federal Experimentation. A fictional classified agency portfolio.">
+  <title>CFE // Configuration Of Federal Experimentation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="scanlines" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#home" aria-label="CFE home">
+      <span class="brand-mark">CFE</span>
+      <span class="brand-name">CONFIGURATION OF<br>FEDERAL EXPERIMENTATION</span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">☰</button>
+    <nav id="nav">
+      <a href="#briefing">BRIEFING</a>
+      <a href="#projects">EXPERIMENTS</a>
+      <a href="#dossiers">DOSSIERS</a>
+      <a href="#access">ACCESS</a>
+    </nav>
+    <span class="status"><i></i> SYSTEM ONLINE</span>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> FEDERAL RESEARCH DIVISION</p>
+        <h1>THE UNKNOWN<br><em>IS UNDER STUDY.</em></h1>
+        <p class="hero-text">A restricted archive for experimental initiatives, classified research, and records beyond public release.</p>
+        <div class="hero-actions">
+          <a class="button button-light" href="#projects">VIEW PROJECTS <b>↘</b></a>
+          <a class="text-link" href="#briefing">READ THE BRIEFING ↗</a>
+        </div>
+        <div class="hero-meta"><span>FILE REF: CFE-00X</span><span>ACCESS: RESTRICTED</span><span>REVISION: 07.4</span></div>
+      </div>
+      <div class="hero-art">
+        <img src="images/experiment-chamber.svg" alt="Monochrome illustration of an experimental research chamber">
+        <div class="stamp">CLASSIFIED<br><small>INTERNAL USE ONLY</small></div>
+        <div class="art-caption"><span>FIG. 01</span> EXPERIMENTAL ENVIRONMENT / UNVERIFIED</div>
+      </div>
+    </section>
+
+    <section class="ticker" aria-label="Notice"><span>NOTICE</span><p>ALL PROJECTS AND RECORDS DISPLAYED HERE ARE FICTIONAL WEBSITE CONTENT.</p><span class="ticker-mark">CFE // CFE // CFE //</span></section>
+
+    <section class="section briefing" id="briefing">
+      <div class="section-heading"><p class="eyebrow">00 / OVERVIEW</p><h2>THE BRIEFING</h2></div>
+      <div class="briefing-body">
+        <p class="big-copy">The Configuration of Federal Experimentation exists to document the questions that remain unanswered.</p>
+        <p class="muted">CFE is presented as a fictional research organization. This archive-style portfolio brings together experimental concepts, internal records, and project summaries in one controlled interface.</p>
+        <div class="stats">
+          <div><strong>07</strong><span>ARCHIVE ENTRIES</span></div>
+          <div><strong>03</strong><span>ACTIVE CONCEPTS</span></div>
+          <div><strong>01</strong><span>RESTRICTED ARCHIVE</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="projects">
+      <div class="section-heading heading-row"><div><p class="eyebrow">01 / RESEARCH ARCHIVE</p><h2>EXPERIMENTAL PROJECTS</h2></div><span class="section-code">SELECT AN ENTRY ↘</span></div>
+      <div class="project-grid">
+        <article class="project-card">
+          <button class="image-button" data-modal="project-01" aria-label="Open Project 01 details"><img src="images/project-eclipse.svg" alt="Monochrome abstract experimental object in a test chamber"><span class="image-label">FIG. 01 / PROJECT ECLIPSE</span><span class="open-icon">↗</span></button>
+          <div class="card-info"><span class="tag">CONCEPT STUDY</span><span class="record-no">CFE-P01</span><h3>PROJECT ECLIPSE</h3><p>Observation of an unidentified signal within a controlled simulation.</p><button class="details-link" data-modal="project-01">OPEN RECORD <span>↗</span></button></div>
+        </article>
+        <article class="project-card">
+          <button class="image-button" data-modal="project-02" aria-label="Open Project 02 details"><img src="images/project-monolith.svg" alt="Monochrome geometric object documented as a fictional research specimen"><span class="image-label">FIG. 02 / PROJECT MONOLITH</span><span class="open-icon">↗</span></button>
+          <div class="card-info"><span class="tag">SPECIMEN FILE</span><span class="record-no">CFE-P02</span><h3>PROJECT MONOLITH</h3><p>Study of a fictional geometric specimen and its unusual properties.</p><button class="details-link" data-modal="project-02">OPEN RECORD <span>↗</span></button></div>
+        </article>
+        <article class="project-card">
+          <button class="image-button" data-modal="project-03" aria-label="Open Project 03 details"><img src="images/project-signal.svg" alt="Monochrome signal waveform visualization"><span class="image-label">FIG. 03 / PROJECT SILENT SIGNAL</span><span class="open-icon">↗</span></button>
+          <div class="card-info"><span class="tag">SIGNAL ANALYSIS</span><span class="record-no">CFE-P03</span><h3>SILENT SIGNAL</h3><p>Fictional waveform analysis from an isolated test environment.</p><button class="details-link" data-modal="project-03">OPEN RECORD <span>↗</span></button></div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section dossier-section" id="dossiers">
+      <div class="section-heading heading-row"><div><p class="eyebrow">02 / INTERNAL DOCUMENTS</p><h2>CLASSIFIED DOSSIERS</h2></div><span class="section-code">ARCHIVE STATUS: SEALED</span></div>
+      <div class="dossier-list">
+        <button class="dossier" data-modal="file-014"><img src="images/dossier-014.svg" alt="Classified dossier cover marked file 014"><span class="dossier-id">FILE / 014</span><span class="dossier-title">ANOMALOUS MATERIALS</span><span class="dossier-desc">Specimen notes and containment observations</span><span class="dossier-access">LEVEL 03</span><span class="dossier-arrow">↗</span></button>
+        <button class="dossier" data-modal="file-027"><img src="images/dossier-027.svg" alt="Classified dossier cover marked file 027"><span class="dossier-id">FILE / 027</span><span class="dossier-title">SIGNAL LOGS</span><span class="dossier-desc">Fictional transmissions and analysis notes</span><span class="dossier-access">LEVEL 02</span><span class="dossier-arrow">↗</span></button>
+        <button class="dossier" data-modal="file-061"><img src="images/dossier-061.svg" alt="Classified dossier cover marked file 061"><span class="dossier-id">FILE / 061</span><span class="dossier-title">PROJECT HISTORY</span><span class="dossier-desc">Internal timeline and review summary</span><span class="dossier-access">LEVEL 04</span><span class="dossier-arrow">↗</span></button>
+      </div>
+    </section>
+
+    <section class="access-panel" id="access">
+      <div><p class="eyebrow">03 / PERSONNEL ACCESS</p><h2>REQUEST ARCHIVE ACCESS.</h2><p class="muted">Enter the demonstration access phrase to reveal a fictional internal notice. This is a visual interaction only—not real authentication.</p></div>
+      <form id="accessForm" class="access-form">
+        <label for="accessCode">ACCESS PHRASE</label>
+        <div class="input-row"><input id="accessCode" type="text" placeholder="ENTER PHRASE" autocomplete="off"><button type="submit">VERIFY ↗</button></div>
+        <p id="accessMessage" class="form-message" aria-live="polite">AWAITING INPUT…</p>
+        <span class="hint">DEMO PHRASE: PHANTOM</span>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand footer-brand" href="#home"><span class="brand-mark">CFE</span><span class="brand-name">CONFIGURATION OF<br>FEDERAL EXPERIMENTATION</span></a>
+    <p>FICTIONAL ARCHIVE INTERFACE · ALL RECORDS ARE IMAGINARY</p>
+    <a href="#home" class="back-top">BACK TO TOP ↑</a>
+    <span class="copyright">© CFE / ARCHIVE INTERFACE</span>
+  </footer>
+
+  <dialog id="recordModal" class="record-modal">
+    <button class="modal-close" id="modalClose" aria-label="Close record">×</button>
+    <p class="eyebrow" id="modalEyebrow">RESTRICTED RECORD</p>
+    <h2 id="modalTitle">RECORD TITLE</h2>
+    <div class="modal-rule"></div>
+    <p id="modalBody"></p>
+    <div class="modal-foot"><span>DOCUMENT STATUS: FICTIONAL</span><span>CFE // INTERNAL ARCHIVE</span></div>
+  </dialog>
+  <script src="script.js"></script>
+</body>
+</html>
