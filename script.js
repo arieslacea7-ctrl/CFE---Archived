@@ -131,3 +131,17 @@ function enterCFE() {
 
   nextLine();
 }
+function openABS() {
+  document.getElementById("abs-rules-screen").hidden = true;
+  document.getElementById("abs-screen").hidden = false;
+}
+
+function showABSRules() {
+  document.getElementById("abs-screen").hidden = true;
+  document.getElementById("abs-rules-screen").hidden = false;
+}
+
+function closeABS() {
+  document.getElementById("abs-screen").hidden = true;
+  document.getElementById("abs-rules-screen").hidden = true;
+}
