@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="700" viewBox="0 0 900 700">
+<rect width="900" height="700" fill="#f4f0e7"/><rect x="24" y="24" width="852" height="652" fill="none" stroke="#171717" stroke-width="3"/>
+<text x="52" y="70" font-family="monospace" font-size="22" letter-spacing="5" fill="#171717">CFE // FOLKLORE ARCHIVE</text>
+<text x="52" y="112" font-family="monospace" font-size="40" font-weight="bold" fill="#171717">SPECIMEN 004: KAPRE</text>
+<!-- old balete tree -->
+<path d="M650 650 C620 530 660 440 625 340 C602 270 625 210 590 150 M632 420 C710 360 730 280 790 240 M625 335 C550 300 535 240 505 210 M625 520 C540 470 500 430 470 365 M625 275 C680 220 680 165 720 135" fill="none" stroke="#252525" stroke-width="27" stroke-linecap="round"/>
+<g fill="#252525"><ellipse cx="595" cy="145" rx="90" ry="42"/><ellipse cx="700" cy="170" rx="80" ry="43"/><ellipse cx="775" cy="230" rx="72" ry="42"/><ellipse cx="510" cy="207" rx="70" ry="38"/><ellipse cx="480" cy="356" rx="82" ry="40"/><ellipse cx="700" cy="330" rx="88" ry="42"/></g>
+<!-- hand-drawn giant -->
+<path d="M220 610 C205 560 220 500 246 458 L236 390 C220 350 230 285 270 258 C292 243 330 244 352 266 C381 292 387 333 372 370 L366 414 C398 444 425 491 432 548 L454 610 Z" fill="#171717" stroke="#171717" stroke-width="5"/>
+<path d="M245 300 C225 265 250 225 287 214 C326 198 369 226 380 260 L390 310 L366 335 L360 386 L335 416 L307 386 L276 404 L251 370 Z" fill="#171717" stroke="#171717" stroke-width="5"/>
+<path d="M270 275 C289 247 338 250 355 278 L350 322 L326 349 L294 335 L276 310 Z" fill="#d5cfc3" stroke="#171717" stroke-width="5"/>
+<path d="M276 283 L300 292 M330 290 L350 281" fill="none" stroke="#171717" stroke-width="8" stroke-linecap="round"/>
+<path d="M311 298 L305 320 L323 320 M290 337 L315 344 L339 330 L328 365 L304 371 Z" fill="none" stroke="#171717" stroke-width="4" stroke-linecap="round"/>
+<path d="M250 389 C210 394 184 428 176 474 L157 525 L184 536 L218 481 L270 445 Z M363 391 C404 400 430 433 436 472 L451 512 L426 527 L397 483 L350 444 Z" fill="#171717" stroke="#171717" stroke-width="5"/>
+<path d="M341 333 L398 322" stroke="#171717" stroke-width="10" stroke-linecap="round"/><path d="M398 322 L411 320" stroke="#777" stroke-width="8" stroke-linecap="round"/>
+<path d="M413 312 C430 298 414 287 432 275 C446 263 429 251 446 238" fill="none" stroke="#777" stroke-width="4" stroke-linecap="round"/>
+<g stroke="#f4f0e7" stroke-width="3" opacity=".7"><path d="M248 430 l18 15 M238 449 l18 15 M372 433 l-18 15 M386 452 l-18 15 M267 530 l22 20 M260 551 l22 20 M332 522 l-18 20 M344 545 l-18 20"/></g>
+<path d="M80 612 Q260 590 440 615 T820 608" fill="none" stroke="#171717" stroke-width="3"/>
+<text x="52" y="646" font-family="monospace" font-size="16" fill="#171717">ILLUSTRATED FOLKLORE RECORD // PHILIPPINES</text><text x="815" y="646" font-family="monospace" font-size="16" text-anchor="end" fill="#171717">04 / 07</text>
+</svg>
