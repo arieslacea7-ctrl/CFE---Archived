@@ -69,3 +69,65 @@ document.getElementById('accessForm').addEventListener('submit', event => {
     message.textContent = 'ACCESS DENIED — PHRASE NOT RECOGNIZED.';
   }
 });
+
+function enterCFE() {
+  const rules = document.getElementById("rules-screen");
+  if (!rules) return;
+
+  rules.remove();
+
+  const boot = document.createElement("div");
+  boot.id = "cfe-boot-screen";
+
+  boot.innerHTML = `
+    <div class="cfe-boot-content">
+      <div class="cfe-boot-label">CFE // SECURITY TERMINAL</div>
+      <h1 class="cfe-boot-title">ACCESS GRANTED</h1>
+      <div id="cfe-boot-log"></div>
+      <div class="cfe-boot-progress">
+        <div id="cfe-boot-progress-fill"></div>
+      </div>
+    </div>
+  `;
+
+  document.body.appendChild(boot);
+
+  const messages = [
+    "> VERIFYING PERSONNEL NOTICE...",
+    "> INITIALIZING SECURE TERMINAL...",
+    "> CHECKING ARCHIVE INTEGRITY...",
+    "> LOADING CLASSIFIED FILES...",
+    "> WARNING: UNVERIFIED MATERIAL DETECTED",
+    "> CONNECTION ESTABLISHED.",
+    "> WELCOME TO THE CFE ARCHIVE."
+  ];
+
+  const log = document.getElementById("cfe-boot-log");
+  const progress = document.getElementById("cfe-boot-progress-fill");
+  let i = 0;
+
+  function nextLine() {
+    if (i >= messages.length) {
+      progress.style.width = "100%";
+
+      setTimeout(() => {
+        boot.style.opacity = "0";
+        boot.style.transition = "opacity 0.8s";
+
+        setTimeout(() => {
+          boot.remove();
+          document.body.classList.add("cfe-entered");
+        }, 850);
+      }, 500);
+
+      return;
+    }
+
+    log.textContent += (i ? "\n" : "") + messages[i];
+    i++;
+    progress.style.width = (i / messages.length * 100) + "%";
+    setTimeout(nextLine, 450);
+  }
+
+  nextLine();
+}
