@@ -9,6 +9,24 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  
+<div id="rules-screen" style="position:fixed;inset:0;z-index:99999;background:#050505;color:#eee;font-family:monospace;display:flex;align-items:center;justify-content:center;padding:24px;overflow:auto;">
+  <div style="max-width:650px;width:100%;border:1px solid #555;padding:28px;">
+    <p style="color:#888;letter-spacing:4px;">CFE // PERSONNEL NOTICE</p>
+    <h1>SPY RULES & GUIDELINES</h1>
+    <p>Read these guidelines before entering the facility.</p>
+    <hr>
+    <p><b>01 — CONFIDENTIALITY</b><br>Keep fictional CFE files within the organization.</p>
+    <p><b>02 — AUTHORIZATION</b><br>Access only files you are permitted to view.</p>
+    <p><b>03 — OPERATIONAL SECURITY</b><br>Never share passwords or private credentials.</p>
+    <p><b>04 — PROFESSIONAL CONDUCT</b><br>Follow instructions and respect other personnel.</p>
+    <p><b>05 — REPORT INCIDENTS</b><br>Report suspicious activity to CFE command.</p>
+    <hr>
+    <p style="color:#999;font-size:12px;">FICTIONAL ORGANIZATION // TRAINING NOTICE</p>
+    <button onclick="document.getElementById('rules-screen').remove()" style="background:#eee;color:#000;border:0;padding:14px 20px;font-family:monospace;font-weight:bold;cursor:pointer;width:100%;">I AGREE — ENTER CFE</button>
+  </div>
+</div>
+
   <div class="scanlines" aria-hidden="true"></div>
   <header class="topbar">
     <a class="brand" href="#home" aria-label="CFE home">
